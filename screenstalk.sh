@@ -36,7 +36,8 @@ do
   exe=$cmd $screen
   #echo "$exe"
   #$exe
-  
+ 
+  #An error of some sort seems to be coming from this line but I'm not sure what
   xwd -root | convert xwd:- $screen 
 
   sleep $ne 
