@@ -12,7 +12,7 @@ fi
 echo -n "Enter number of minutes between screen captures:"
 read nap
 
-ne=$(( nap * 5 ))
+ne=$(( nap * 60 ))
 
 echo -n "Enter filename:"
 read name
